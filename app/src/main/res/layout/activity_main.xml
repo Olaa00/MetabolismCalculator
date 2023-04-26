@@ -27,6 +27,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="412dp"
                 android:layout_height="66dp"
+                tools:ignore="MissingConstraints"
                 tools:layout_editor_absoluteX="1dp">
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -53,7 +54,8 @@
         app:cardBackgroundColor="@color/purple_500"
         app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/cardView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/cardView4"
         app:layout_constraintVertical_bias="0.148">
@@ -120,7 +122,7 @@
         app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.288">
@@ -187,7 +189,7 @@
         app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/cardView4"
         app:layout_constraintVertical_bias="0.428">
@@ -230,6 +232,58 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="377dp"
+        android:layout_height="73dp"
+        android:fontFamily="sans-serif"
+        android:text="CALCULATE"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/teal_700"
+        android:textColorLink="@color/design_default_color_secondary_variant"
+        android:textSize="34sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/result"
+        android:layout_width="347dp"
+        android:layout_height="234dp"
+        app:cardBackgroundColor="@color/purple_500"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="455dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:text="21.5"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/white"
+                android:textColorHint="@color/white"
+                android:textColorLink="@color/white"
+                android:textSize="38dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
     </androidx.cardview.widget.CardView>
 
 
