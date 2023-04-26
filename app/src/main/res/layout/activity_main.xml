@@ -75,7 +75,6 @@
                 android:ems="10"
                 android:hint="0"
                 android:inputType="number"
-                android:text="0"
                 android:textColor="@color/white"
                 android:textColorHighlight="@color/white"
                 android:textColorHint="@color/white"
@@ -87,8 +86,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:layout_conversion_absoluteHeight="55dp"
-                tools:layout_conversion_absoluteWidth="70dp"
-                tools:text="0" />
+                tools:layout_conversion_absoluteWidth="70dp" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -143,14 +141,14 @@
                 android:ems="10"
                 android:hint="0"
                 android:inputType="number"
-                android:text="0"
                 android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:text="0" />
+                app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
