@@ -236,28 +236,28 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="377dp"
-        android:layout_height="73dp"
+        android:layout_width="366dp"
+        android:layout_height="48dp"
         android:fontFamily="sans-serif"
         android:text="CALCULATE"
         android:textAlignment="center"
         android:textColorHighlight="@color/teal_700"
         android:textColorLink="@color/design_default_color_secondary_variant"
-        android:textSize="34sp"
+        android:textSize="20sp"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintHorizontal_bias="0.355"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56" />
+        app:layout_constraintVertical_bias="0.535" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/result"
         android:layout_width="352dp"
         android:layout_height="241dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="455dp"
+        android:layout_marginTop="400dp"
         android:layout_marginEnd="14dp"
         android:layout_marginBottom="35dp"
         app:cardBackgroundColor="@color/purple_500"
@@ -305,7 +305,7 @@
                 android:id="@+id/normtext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="normal range 18.5-24.9"
+                android:text="healthy range 18.5-24.9"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
 
