@@ -83,7 +83,11 @@ class MainActivity : AppCompatActivity() {
     private fun Result2(metabolism :Float){
         val dailmetab = findViewById<TextView>(R.id.dailymetabo)
         val metaboval = findViewById<TextView>(R.id.metabolismvalue)
-        metaboval.text = metabolism.toString()
+
+        val metabolismWithUnit = "$metabolism kcal"
+
+        // Przypisanie wyniku z jednostką do pola TextView
+        metaboval.text = metabolismWithUnit
     }
 
 
